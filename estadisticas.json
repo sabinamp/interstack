@@ -1,0 +1,117 @@
+{
+  "date": "Mon Jan 06 18:55:47 CET 2020",
+  "author": "jorgaf",
+  "description": "File created by Loxa Web site exporter. http://www.j4loxa.com/sna/gephi/plugins/index.html",
+  "graphs": [
+    {
+      "name": "CircularL",
+      "title": "Title to CircularL",
+      "tip": "",
+      "nodes": "32",
+      "edges": "168",
+      "description": "",
+      "imgColorDescription": "",
+      "graphfile": "CircularL/CircularL.csv",
+      "pdffile": "CircularL/CircularL.pdf",
+      "browsegraph": "CircularL/CircularL.gexf",
+      "type": "Undirected",
+      "metrics": [
+        {
+          "name": "Metric 1",
+          "value": "0,00",
+          "description": "Description for metric 1"
+        },
+        {
+          "name": "Metric 2",
+          "value": "0,00",
+          "description": "Description for metric 2"
+        },
+        {
+          "name": "Metric 3",
+          "value": "0,00",
+          "description": "Description for metric 3"
+        },
+        {
+          "name": "Metric 4",
+          "value": "0,00",
+          "description": "Description for metric 4"
+        },
+        {
+          "name": "Metric 5",
+          "value": "0,00",
+          "description": "Description for metric 5"
+        },
+        {
+          "name": "Metric 6",
+          "value": "0,00",
+          "description": "Description for metric 6"
+        },
+        {
+          "name": "Metric 7",
+          "value": "0,00",
+          "description": "Description for metric 7"
+        },
+        {
+          "name": "Metric 8",
+          "value": "0,00",
+          "description": "Description for metric 8"
+        }
+      ]
+    },
+    {
+      "name": "FRLayout",
+      "title": "Title to FRLayout",
+      "tip": "",
+      "nodes": "32",
+      "edges": "168",
+      "description": "",
+      "imgColorDescription": "",
+      "graphfile": "FRLayout/FRLayout.csv",
+      "pdffile": "FRLayout/FRLayout.pdf",
+      "browsegraph": "FRLayout/FRLayout.gexf",
+      "type": "Undirected",
+      "metrics": [
+        {
+          "name": "Metric 1",
+          "value": "0,00",
+          "description": "Description for metric 1"
+        },
+        {
+          "name": "Metric 2",
+          "value": "0,00",
+          "description": "Description for metric 2"
+        },
+        {
+          "name": "Metric 3",
+          "value": "0,00",
+          "description": "Description for metric 3"
+        },
+        {
+          "name": "Metric 4",
+          "value": "0,00",
+          "description": "Description for metric 4"
+        },
+        {
+          "name": "Metric 5",
+          "value": "0,00",
+          "description": "Description for metric 5"
+        },
+        {
+          "name": "Metric 6",
+          "value": "0,00",
+          "description": "Description for metric 6"
+        },
+        {
+          "name": "Metric 7",
+          "value": "0,00",
+          "description": "Description for metric 7"
+        },
+        {
+          "name": "Metric 8",
+          "value": "0,00",
+          "description": "Description for metric 8"
+        }
+      ]
+    }
+  ]
+}

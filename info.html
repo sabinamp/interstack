@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <title>Loxa - Web Site Exporter - Social network analysis </title> 
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
+  <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+  <link type="text/css" rel="stylesheet" href="styles/bootstrap.css"> 
+ </head> 
+ <body> 
+  <div class="container-fluid"> 
+   <div class="navbar"> 
+    <div class="navbar-inner"> 
+     <ul class="nav"> 
+      <li><a href="index.html">SNA</a></li> 
+      <li class="active"><a href="info.html">About analysis</a></li>       
+     </ul> 
+    </div> 
+   </div> 
+   <div class="row-fluid"> 
+    <div class="span1"></div> 
+    <div class="span10"> 
+     <div class="tabbable"> 
+      <!-- Only required for left/right tabs --> 
+      <ul class="nav nav-tabs"> 
+       <li class="active"><a href="#tabObjec" data-toggle="tab">Objectives</a></li>        
+       <li><a href="#tabMetrics" data-toggle="tab">Metrics &amp; indicators</a></li>         
+      </ul> 
+      <div class="tab-content">         
+       <div class="tab-pane active" id="tabObjec"> 
+        <h4>Objectives</h4> 
+        <p>Interstack Connections. Which Stacks have common registered users? 
+		</p> 
+        <ul> 
+         <li>Are there many users of the "Mathematics Stack" maybe also frequently active on the "Ask Different Stack"?</li> 
+         <li>Are the users active on the Stackoverflow Stack also active on the Web Applications Stack?</li> 
+          <li>Are the users active on the Home Improvement Stack also active on the Photography Stack?</li> 
+          <li>Besides the expected strong connections between:
+          <ul>
+          	<li> Arqade and Arqade Meta,</li>
+          	<li> Home Improvement and Home Improvement Meta,</li>
+          	<li> Mathematics and Mathematics Meta</li>
+          	<li> Super User and Meta Super User</li>
+          </ul>  what other strong connections between stacks are there? Which stacks seem to share a great number of users?
+       </div> 
+       <div class="tab-pane" id="tabMetrics"> 
+        <h4>Metrics and indicators that show relevant issues in our analysis</h4>  
+        <h5>Degree Centrality</h5>      
+       	<p> Partitioning by degree - Node size and color have been applied based on the degree of a node. </p> 
+        <h5>Edge Color</h5>      
+       	<p> In order to highlight weighted edges, we gave them a green color that make the stronger edges more visible in the final display. </p>
+       	<h5> Layout</h5>
+       	The circular layout visualisation shows nodes sorted based on their degree centrality value anticlockwise.<br/>
+       	The Fruchterman Reingold layout emphasizes the strong connectivity between the nodes with the highest degree centrality: <br/>
+       	Ask Different - Mathematics - Mathematics Meta - Ask Ubuntu - Arqade - Web Applications - Arqade Meta 
+       </div> 
+       <div class="tab-pane" id="tabBiblio"> 
+        <h4>References</h4> 
+        <p>The bibliography and references used in our analysis.</p> 
+        <ol> 
+         <li> Gephi Plugins Website (2019). Gephi Plugins. Accessible at: https://gephi.org/plugins/#/ </li> 
+        </ol> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="span1"></div> 
+   </div> 
+  </div> 
+  <div style="position:fixed; left:45%; bottom:4px;"> 
+   <a href="http://loxa.ec" target="_blank" title="loxa.ec"><img src="img/logo_final.png" width="75px" height="28px"></a> 
+   <a href="http://www.utpl.edu.ec" target="_blank" title="UTPL"><img src="img/utpl.jpg" width="19px" height="28px"></a> 
+   <a href="http://www.upm.es" target="_blank" title="UPM"><img src="img/upm.png" width="25px" height="28px"></a> 
+  </div>  
+ </body>
+</html>
